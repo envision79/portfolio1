@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.max-width {
+  padding-bottom: 80px;
+  height: 80px;
+}
+.displayNone {
+  display: none;
+}
+body {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+}
+
+nav {
+  position: fixed;
+  display: flex;
+  z-index: 999;
+  height: 80px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 0 100px;
+  flex-wrap: wrap;
+  transition: all 0.2s ease;
+}
+
+nav .logo {
+    text-decoration: none;
+    color: black;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+nav .logo span {
+  color: orange;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 4px 8px;
+  margin: 4px 8px;
+  letter-spacing: 1px;
+  border-bottom: 1.5px solid transparent;
+  border-width: 80%;
+  transition: all 0.3s ease;
+}
+nav ul li a.active,
+nav ul li a:hover {
+  border-color: orange;
+}
+
+nav .menu-btn i {
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
+}
+.sticky {
+    padding: 0 50px 0 100px;
+    height: 60px;
+    background: whitesmoke;
+  }
+input[type="checkbox"] {
+  display: none;
+}
+
+.resume:hover {
+  color: green;
+  border: white;
+}
+
+
+/*Jokes*/
+.dadJokes {
+    text-align: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #dee2e6;
+}
+.newJokes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0 20px 0;
+}
+.newJokes button {
+    color: white;
+    background: orange;
+    border: 2px solid orange ;
+    padding: 7px 7px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.newJokes button:hover {
+    font-weight: 500;
+    color: orange;
+    background: white;
+}
+.jokesul li{
+    text-align: center;
+    line-height: 40px;
+}
+.serverSlow {
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1000px) {
+    nav {
+      padding: 0 40px 0px 50px;
+    }
+  }
+  
+  @media (max-width: 920px) {
+    nav {
+      overflow-y: scroll;
+    }
+    nav .menu-btn i {
+      color: black;
+      display: block;
+    }
+  
+    #click:checked ~ .menu-btn i::before {
+      content: "\f00d";
+    }
+    nav ul {
+      background-color: white;
+      position: fixed;
+      top: 80px;
+      left: -100%;
+      height: 100ch;
+      width: 100%;
+      text-align: center;
+      display: block;
+      transition: all 0.3s ease;
+      z-index: 10;
+    }
+    #click:checked ~ ul {
+      left: 0;
+    }
+    nav ul li {
+      width: 100%;
+      margin: 40px 0;
+    }
+  
+    nav ul li a {
+      width: 100%;
+      margin-left: -100%;
+      display: block;
+      font-size: 20px;
+      transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+    #click:checked ~ ul li a {
+      margin-left: 0;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .content div {
+      font-size: 22px;
+    }
+  }
+  
+  
