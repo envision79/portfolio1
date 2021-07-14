@@ -119,7 +119,12 @@ input[type="checkbox"] {
   background: whitesmoke;
   border-radius: 4px;
 }
-
+.aboutMe {
+  padding: 10px;
+  border: 1px solid whitesmoke;
+  background: whitesmoke;
+  border-radius: 4px;
+}
 /*projects*/
 .projects-within-link {
   margin-top: 0px;
