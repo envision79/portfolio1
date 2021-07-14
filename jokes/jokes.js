@@ -59,11 +59,16 @@ const getDadJoke = async () => {
     }
 }
 
-
+let k = 0;
 const addDadJoke = async () => {
-    const jokeText = await getDadJoke();
     const newLI = document.createElement('LI');
-    newLI.append(jokeText);
+    const newSpan = document.createElement('SPAN');
+    if(k%2 === 0) {
+        newSpan.classList.add("changingAboutMe")
+    }
+    const jokeText = await getDadJoke();
+    newSpan.textContent = jokeText;
+    newLI.append(newSpan);
     jokesul.append(newLI);
 }
 
@@ -79,7 +84,10 @@ const getHighJoke = async () => {
 
 
 getHighJoke();
-button.addEventListener('click', addDadJoke);
+button.addEventListener('click', function() {
+    ++k;
+    addDadJoke();
+});
 
 // let serverSlow = document.querySelector('.serverSlow');
 // setInterval(() => {
