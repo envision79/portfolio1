@@ -215,7 +215,7 @@ input[type="checkbox"] {
     width: 100%;
     margin-right: -100%;
     display: block;
-    font-size: 16px;
+    font-size: 18px;
     transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
   #click:checked ~ ul li a {
