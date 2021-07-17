@@ -229,9 +229,6 @@ input[type="checkbox"] {
 }
 
 @media (max-width: 920px) {
-  nav {
-    overflow-y: scroll;
-  }
   nav .logo {
     font-size: 30px;
     font-weight: 600;
@@ -240,9 +237,11 @@ input[type="checkbox"] {
     color: black;
     display: block;
   }
-
   #click:checked ~ .menu-btn i::before {
     content: "\f00d";
+  }
+  .resume {
+    margin-bottom: 60px;
   }
   nav ul {
     background-color: white;
@@ -255,6 +254,7 @@ input[type="checkbox"] {
     display: block;
     transition: all 0.3s ease;
     z-index: 10;
+    overflow-y: scroll;
   }
   #click:checked ~ ul {
     right: 0;
@@ -266,9 +266,8 @@ input[type="checkbox"] {
 
   nav ul li a {
     width: 100%;
-    margin-right: -100%;
     display: block;
-    font-size: 18px;
+    font-size: 16px;
     transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
   #click:checked ~ ul li a {
