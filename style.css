@@ -113,18 +113,12 @@ input[type="checkbox"] {
   height: 200px;
   margin-bottom: 10px;
 }
-.changingAboutMe {
-  overflow: hidden;
-}
-
 .container-about-me{
   background: whitesmoke;
   padding: 10px;
   border: 1px solid whitesmoke;
   border-radius: 5px;
 }
-
-
 /* Cursor */
 .txt-type > .txt {
   border-right: 2px solid #777;

@@ -101,7 +101,6 @@ window.onscroll = function () {
       this.txt = "";
       this.wordIndex = 0;
       this.wait = parseInt(wait, 10);
-      this.type();
       this.isDeleting = false;
     }
   
@@ -140,22 +139,25 @@ window.onscroll = function () {
         this.isDeleting = false;
         // Move to next word
         this.wordIndex++;
-        // Pause before start typing
         typeSpeed = 500;
       }
-  
+      // Pause before start typing
       setTimeout(() => this.type(), typeSpeed);
     }
   }
   // Init On DOM Load
   document.addEventListener("DOMContentLoaded", init);
-  
   // Init App
   function init() {
     const txtElement = document.querySelector(".txt-type");
     const words = JSON.parse(txtElement.getAttribute("data-words"));
     const wait = txtElement.getAttribute("data-wait");
     // Init TypeWriter
-    new TypeWriter(txtElement, words, wait);
+    const writer = new TypeWriter(txtElement, words, wait);
+    writer.type();
   }
+  
+  // window.addEventListener('DOMContentLoaded', (event) => {
+  //   console.log('DOM fully loaded and parsed');
+  // });
   
