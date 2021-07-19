@@ -204,6 +204,7 @@ input[type="checkbox"] {
     overflow-y: scroll;
   }
   #click:checked ~ ul {
+    box-shadow: 0 20px 20px 0 rgb(0 0 0 / 19%);
     right: 0;
   }
   nav ul li {
