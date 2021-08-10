@@ -281,9 +281,6 @@ input[type="checkbox"] {
   #click:checked ~ .menu-btn i::before {
     content: "\f00d";
   }
-  .resume {
-    margin-bottom: 100px;
-  }
   nav ul {
     background-color: white;
     position: fixed;
