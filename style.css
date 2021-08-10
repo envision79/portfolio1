@@ -16,7 +16,6 @@ html {
 .displayNone {
   display: none;
 }
-
 body {
   background-repeat: no-repeat;
   background-position: center;
@@ -46,7 +45,7 @@ nav .logo {
 }
 
 nav .logo span {
-  color: orange;
+  color: blueviolet;
 }
 
 nav ul {
@@ -60,7 +59,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: black;
+  color: 	grey;
   text-decoration: none;
   font-size: 18px;
   font-weight: 500;
@@ -71,11 +70,13 @@ nav ul li a {
   border-width: 80%;
   transition: all 0.3s ease;
 }
-nav ul li a.active,
-nav ul li a:hover {
-  border-color: orange;
+nav ul li a.active{
+  color: #1f1f1f;
+  border-color: blueviolet;
 }
-
+nav ul li a:hover {
+  color: #1f1f1f;
+}
 nav .menu-btn i {
   color: white;
   font-size: 22px;
@@ -84,16 +85,29 @@ nav .menu-btn i {
 }
 .sticky {
   height: 60px;
-  background: whitesmoke;
+  background: white;
+  box-shadow: 2px 0  8px blue;
+}
+
+nav ul li button {
+  border-radius: 25px;
+  border: 1px solid rgb(154, 79, 224);
+  background-color: rgb(154, 79, 224);
+  color: white;
+  transition: 0.3s all ease-in-out;
+}
+nav ul li button a{
+  color: whitesmoke;
+}
+nav ul li button a:hover {
+  color: whitesmoke;
+}
+nav ul li button:hover {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.24), 0 2px 4px 0 rgba(0,0,0,0.19);
 }
 
 input[type="checkbox"] {
   display: none;
-}
-
-.resume:hover {
-  color: green;
-  border: white;
 }
 
 /*About Section*/
@@ -122,7 +136,7 @@ input[type="checkbox"] {
   border-radius: 5px;
 }
 /* Cursor */
-.txt-type > .txt {
+.txt-type .txt {
   border-right: 2px solid #777;
 }
 
@@ -143,7 +157,6 @@ input[type="checkbox"] {
 }
 .container {
   margin: 0 5px;
-  background-color: whitesmoke;
   margin: 4rem;
   margin-top: 2rem;
   padding-bottom: 4rem;
@@ -151,7 +164,7 @@ input[type="checkbox"] {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 40px;
-  border: 1px solid whitesmoke;
+  background: whitesmoke;
   border-radius: 10px;
 }
 
@@ -189,10 +202,10 @@ input[type="checkbox"] {
 }
 .connect a{
   color: black;
-  transition: all 0.3s ease-out;
+  transition: all 0.3s ease-in-out;
 }
 .connect a:hover{
-  color: orange;
+  color:blueviolet;
 }
 .connect i {
   font-size: 30px;
@@ -328,5 +341,8 @@ input[type="checkbox"] {
   }
   .project-img img {
     width: 100%;
+  }
+  .to-top {
+    display: none;
   }
 }
