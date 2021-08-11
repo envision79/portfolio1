@@ -115,6 +115,8 @@ input[type="checkbox"] {
   margin-top: 40px;
   text-align: center;
   line-height: 40px;
+  padding-bottom: 4rem;
+  border-bottom: 2px solid whitesmoke;
 }
 .about h1 {
   font-weight: 500;
@@ -148,7 +150,7 @@ input[type="checkbox"] {
   font-size: 30px;
 }
 .extra-space {
-  margin-top: 80px;
+  margin-top: 60px;
 }
 .high-projects {
   text-align: center;
@@ -159,21 +161,31 @@ input[type="checkbox"] {
   margin: 0 5px;
   margin: 4rem;
   margin-top: 2rem;
-  padding-bottom: 4rem;
-  padding-top: 4rem;
+  padding: 4rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 40px;
   background: whitesmoke;
   border-radius: 10px;
 }
-
-.project-img img {
-  padding: 12px;
-  border: 1px solid #dee2e6;
-  border-radius: 4px;
-  width: 80%;
-  margin-left: 4.3vw;
+.card{
+  width: 100%;
+  padding: 2rem;
+}
+.project-img-div {
+  overflow: hidden;
+  border: 1px solid whitesmoke;
+  border-radius: 6px;
+}
+.project-img img{
+  border: 1px solid whitesmoke;
+  border-radius: 6px;
+  width: 100%;
+  transition: 0.25s ease;
+  object-fit: fill;
+}
+.project-img-div:hover img{
+  transform: scale(1.1);
 }
 .project-links {
   text-decoration: none;
@@ -189,6 +201,9 @@ input[type="checkbox"] {
 }
 .details {
   text-align: center;
+}
+.gitlink a:hover{
+  text-decoration: underline;
 }
 
 /*Connect*/
@@ -343,3 +358,6 @@ input[type="checkbox"] {
     display: none;
   }
 }
+
+
+
