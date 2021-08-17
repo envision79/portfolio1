@@ -101,7 +101,16 @@ input[type="checkbox"] {
   border-radius: 5px;
 }
 
+
+
+
 /*Jokes*/
+.container ul li {
+  list-style-type: none;
+}
+.container {
+  padding: 10px 300px;
+}
 .dadJokes {
     text-align: center;
     padding-bottom: 30px;
@@ -171,7 +180,7 @@ input[type="checkbox"] {
     padding: 0 40px 0px 50px;
   }
   .container {
-    grid-gap: 30px;
+    padding: 10px 270px;
   }
 }
 
@@ -222,9 +231,8 @@ input[type="checkbox"] {
     margin-left: 0;
   }
 
-  .project-img img {
-    width: 100%;
-    margin: 0;
+  .container {
+    padding: 10px 200px;
   }
 }
 
@@ -232,20 +240,7 @@ input[type="checkbox"] {
   .content div {
     font-size: 22px;
   }
-
   .container {
-    grid-gap: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-    grid-template-columns: 1fr;
-  }
-  .card{
-    margin-bottom: 30px;
-  }
-  .card:last-of-type {
-    margin-bottom: 0;
-  }
-  .project-img img {
-    width: 100%;
+    padding: 10px 30px;
   }
 }

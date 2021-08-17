@@ -112,11 +112,15 @@ input[type="checkbox"] {
 
 /*About Section*/
 .about {
-  margin-top: 40px;
+  padding-top: 40px;
   text-align: center;
   line-height: 40px;
   padding-bottom: 4rem;
   border-bottom: 2px solid whitesmoke;
+  /*background-image: url(images/bg-6-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-attachment: fixed;*/
 }
 .about h1 {
   font-weight: 500;
@@ -201,6 +205,9 @@ input[type="checkbox"] {
 }
 .details {
   text-align: center;
+}
+.details p {
+  color: #70757a;
 }
 .gitlink a:hover{
   text-decoration: underline;
