@@ -117,6 +117,7 @@ input[type="checkbox"] {
   line-height: 40px;
   padding-bottom: 4rem;
   border-bottom: 2px solid whitesmoke;
+  background: ;
   /*background-image: url(images/bg-6-removebg-preview.png);
   background-repeat: no-repeat;
   background-position: right;
@@ -175,6 +176,12 @@ input[type="checkbox"] {
 .card{
   width: 100%;
   padding: 2rem;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  transition: 0.3s all ease;
+}
+.card:hover {
+  background: #dee2e6;
 }
 .project-img-div {
   overflow: hidden;
@@ -218,12 +225,14 @@ input[type="checkbox"] {
   text-align: center;
   border-top: 2px solid whitesmoke;
   padding: 15px 0;
+  background: #31343c;
+  color: #dee2e6;
 }
 .connect h1{
   font-weight: 500;
 }
 .connect a{
-  color: black;
+  color: #dee2e6;
   transition: all 0.3s ease-in-out;
 }
 .connect a:hover{
@@ -245,7 +254,7 @@ input[type="checkbox"] {
 
 /*scroll to top button*/
 .to-top {
-  background: whitesmoke;
+  background: #f2f3f6;
   position: fixed;
   bottom: 16px;
   right: 32px;
