@@ -59,9 +59,9 @@ nav ul li {
 }
 
 nav ul li a {
-  color: 	grey;
+  color: #5f6368;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 500;
   padding: 4px 8px;
   margin: 4px 8px;
@@ -70,7 +70,7 @@ nav ul li a {
   border-width: 80%;
   transition: all 0.3s ease;
 }
-nav ul li a.active{
+nav ul li a.active {
   color: #1f1f1f;
   border-color: blueviolet;
 }
@@ -86,7 +86,7 @@ nav .menu-btn i {
 .sticky {
   height: 60px;
   background: white;
-  box-shadow: 2px 0  8px blue;
+  box-shadow: 2px 0 8px blue;
 }
 
 nav ul li button {
@@ -96,14 +96,14 @@ nav ul li button {
   color: white;
   transition: 0.3s all ease-in-out;
 }
-nav ul li button a{
+nav ul li button a {
   color: whitesmoke;
 }
 nav ul li button a:hover {
   color: whitesmoke;
 }
 nav ul li button:hover {
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.24), 0 2px 4px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.24), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
 }
 
 input[type="checkbox"] {
@@ -117,11 +117,6 @@ input[type="checkbox"] {
   line-height: 40px;
   padding-bottom: 4rem;
   border-bottom: 2px solid whitesmoke;
-  background: ;
-  /*background-image: url(images/bg-6-removebg-preview.png);
-  background-repeat: no-repeat;
-  background-position: right;
-  background-attachment: fixed;*/
 }
 .about h1 {
   font-weight: 500;
@@ -136,7 +131,7 @@ input[type="checkbox"] {
   height: 200px;
   margin-bottom: 10px;
 }
-.container-about-me{
+.container-about-me {
   background: whitesmoke;
   padding: 10px;
   border: 1px solid whitesmoke;
@@ -146,7 +141,6 @@ input[type="checkbox"] {
 .txt-type .txt {
   border-right: 2px solid #777;
 }
-
 
 /*projects*/
 .projects-within-link {
@@ -161,6 +155,7 @@ input[type="checkbox"] {
   text-align: center;
   font-weight: 500;
   font-size: 30px;
+  padding-top: 30px;
 }
 .container {
   margin: 0 5px;
@@ -170,33 +165,27 @@ input[type="checkbox"] {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 40px;
-  background: whitesmoke;
+  background: #f1f3f4;
   border-radius: 10px;
 }
-.card{
+.card {
   width: 100%;
   padding: 2rem;
-  border: 1px solid #dee2e6;
+  border: 1px solid #dadce0;
   border-radius: 10px;
   transition: 0.3s all ease;
-}
-.card:hover {
-  background: #dee2e6;
 }
 .project-img-div {
   overflow: hidden;
   border: 1px solid whitesmoke;
   border-radius: 6px;
 }
-.project-img img{
+.project-img img {
   border: 1px solid whitesmoke;
   border-radius: 6px;
   width: 100%;
   transition: 0.25s ease;
   object-fit: fill;
-}
-.project-img-div:hover img{
-  transform: scale(1.1);
 }
 .project-links {
   text-decoration: none;
@@ -207,16 +196,13 @@ input[type="checkbox"] {
   font-size: 20px;
   transition: all 0.3s ease;
 }
-.project-links i:hover {
-  color: orange;
-}
 .details {
   text-align: center;
 }
 .details p {
   color: #70757a;
 }
-.gitlink a:hover{
+.gitlink a:hover {
   text-decoration: underline;
 }
 
@@ -225,36 +211,34 @@ input[type="checkbox"] {
   text-align: center;
   border-top: 2px solid whitesmoke;
   padding: 15px 0;
-  background: #31343c;
-  color: #dee2e6;
+  color: black;
 }
-.connect h1{
+.connect h1 {
   font-weight: 500;
 }
-.connect a{
-  color: #dee2e6;
+.connect a {
+  color: black;
   transition: all 0.3s ease-in-out;
 }
-.connect a:hover{
-  color:blueviolet;
+.connect a:hover {
+  color: blueviolet;
 }
 .connect i {
   font-size: 30px;
 }
-.margin-right{
+.margin-right {
   margin-right: 16px;
 }
 .margin-mid {
   margin-right: 16px;
 }
-.margin-left{
+.margin-left {
   margin-left: 16px;
 }
 
-
 /*scroll to top button*/
 .to-top {
-  background: #f2f3f6;
+  background: whitesmoke;
   position: fixed;
   bottom: 16px;
   right: 32px;
@@ -279,17 +263,6 @@ input[type="checkbox"] {
 .to-top:hover {
   bottom: 35px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 @media (max-width: 1000px) {
   nav {
@@ -334,7 +307,6 @@ input[type="checkbox"] {
     width: 100%;
     margin: 15px 0;
   }
-
   nav ul li a {
     width: 100%;
     display: block;
@@ -344,7 +316,6 @@ input[type="checkbox"] {
   #click:checked ~ ul li a {
     margin-left: 0;
   }
-
   .container {
     margin: 3rem;
   }
@@ -368,7 +339,7 @@ input[type="checkbox"] {
     padding-right: 0;
     grid-template-columns: 1fr;
   }
-  .card{
+  .card {
     margin-bottom: 30px;
     padding: 1em;
   }
@@ -378,16 +349,13 @@ input[type="checkbox"] {
   .project-img img {
     width: 100%;
   }
-  .connect h1{
+  .connect h1 {
     font-size: 1.2em;
   }
-  .connect a i{
+  .connect a i {
     font-size: 1.5em;
   }
   .to-top {
     display: none;
   }
 }
-
-
-
