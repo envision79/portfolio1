@@ -82,6 +82,8 @@ nav .menu-btn i {
   font-size: 22px;
   cursor: pointer;
   display: none;
+  -webkit-tap-highlight-color: white;
+  transition: 0.3s all ease;
 }
 .sticky {
   height: 60px;
