@@ -37,16 +37,16 @@ function myFunction() {
   }
 }
 
-let blog = document.querySelector(".blog-page");
+// let blog = document.querySelector(".blog-page");
 let home = document.querySelector(".home");
 let projects = document.querySelector(".projects");
 let exp = document.querySelector(".exp");
 let jokes = document.querySelector(".jokes");
 
-blog.addEventListener("click", function () {
-  removeActive();
-  blog.classList.add("active");
-});
+// blog.addEventListener("click", function () {
+//   removeActive();
+//   blog.classList.add("active");
+// });
 home.addEventListener("click", function () {
   removeActive();
   home.classList.add("active");
@@ -68,7 +68,7 @@ exp.addEventListener("click", function () {
 });
 
 function removeActive() {
-  blog.classList.remove("active");
+  // blog.classList.remove("active");
   jokes.classList.remove("active");
   home.classList.remove("active");
   projects.classList.remove("active");

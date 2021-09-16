@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -43,21 +43,17 @@ nav .logo {
   font-size: 30px;
   font-weight: 600;
 }
-
 nav .logo span {
   color: blueviolet;
 }
-
 nav ul {
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
 }
-
 nav ul li {
   margin: 0 5px;
 }
-
 nav ul li a {
   color: #5f6368;
   text-decoration: none;
@@ -66,7 +62,7 @@ nav ul li a {
   padding: 4px 8px;
   margin: 4px 8px;
   letter-spacing: 1px;
-  border-bottom: 1.5px solid transparent;
+  border-bottom: 1.9px solid transparent;
   border-width: 80%;
   transition: all 0.3s ease;
 }
@@ -82,7 +78,7 @@ nav .menu-btn i {
   font-size: 22px;
   cursor: pointer;
   display: none;
-  -webkit-tap-highlight-color: white;
+  /* -webkit-tap-highlight-color: white; */
   transition: 0.3s all ease;
 }
 .sticky {
@@ -90,7 +86,6 @@ nav .menu-btn i {
   background: white;
   box-shadow: 2px 0 8px blue;
 }
-
 nav ul li button {
   border-radius: 25px;
   border: 1px solid rgb(154, 79, 224);
@@ -99,10 +94,10 @@ nav ul li button {
   transition: 0.3s all ease-in-out;
 }
 nav ul li button a {
-  color: whitesmoke;
+  color: white;
 }
 nav ul li button a:hover {
-  color: whitesmoke;
+  color: white;
 }
 nav ul li button:hover {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.24), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
@@ -125,7 +120,6 @@ input[type="checkbox"] {
   font-size: 2.5rem;
   margin-bottom: 5px;
 }
-
 .about img {
   border: 1px solid #dee2e6;
   padding: 12px;
@@ -382,10 +376,11 @@ input[type="checkbox"] {
     font-size: 1.7em;
   }
 }
+
 @media (min-width: 1440px) {
   nav {
     position: absolute;
     right: 15px;
   }
 }
-/*----------------------------------------------------------------------------------------------------------------*/
+/********************************************** THE END *********************************************/
