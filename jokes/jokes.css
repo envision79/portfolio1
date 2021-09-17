@@ -39,7 +39,7 @@ nav {
 nav .logo {
   text-decoration: none;
   color: black;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 600;
 }
 
@@ -60,7 +60,7 @@ nav ul li {
 nav ul li a {
   color: black;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   padding: 4px 8px;
   margin: 4px 8px;
@@ -82,7 +82,8 @@ nav .menu-btn i {
 }
 .sticky {
   height: 60px;
-  background: whitesmoke;
+  background: white;
+  box-shadow: 2px 0 8px orangered;
 }
 
 input[type="checkbox"] {
@@ -101,9 +102,6 @@ input[type="checkbox"] {
   border-radius: 5px;
 }
 
-
-
-
 /*Jokes*/
 .container ul li {
   list-style-type: none;
@@ -112,68 +110,38 @@ input[type="checkbox"] {
   padding: 10px 300px;
 }
 .dadJokes {
-    text-align: center;
-    padding-bottom: 30px;
-    border-bottom: 1px solid #dee2e6;
+  text-align: center;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #dee2e6;
 }
 .newJokes {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 40px 0 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0 20px 0;
 }
 .newJokes button {
-    color: white;
-    background: orange;
-    border: 2px solid orange ;
-    padding: 7px 7px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.3s ease;
+  color: white;
+  background: orange;
+  border: 2px solid orange;
+  padding: 7px 7px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 .newJokes button:hover {
-    font-weight: 500;
-    color: orange;
-    background: white;
+  font-weight: 500;
+  color: orange;
+  background: white;
 }
-.jokesul li{
-    text-align: center;
-    line-height: 40px;
+.jokesul li {
+  text-align: center;
+  line-height: 40px;
 }
 .serverSlow {
-    text-align: center;
-    margin: 20px 0 20px 0;
+  text-align: center;
+  margin: 20px 0 20px 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media (max-width: 1000px) {
   nav {

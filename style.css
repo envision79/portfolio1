@@ -111,7 +111,7 @@ input[type="checkbox"] {
 .about {
   padding-top: 40px;
   text-align: center;
-  line-height: 40px;
+  line-height: 44px;
   padding-bottom: 4rem;
   border-bottom: 2px solid whitesmoke;
 }
@@ -139,19 +139,11 @@ input[type="checkbox"] {
 }
 
 /*projects*/
-.projects-within-link {
-  margin-top: 0px;
-  font-weight: 500;
-  font-size: 30px;
-}
-.extra-space {
-  margin-top: 60px;
-}
 .high-projects {
   text-align: center;
   font-weight: 500;
   font-size: 30px;
-  padding-top: 30px;
+  padding-top: 90px;
 }
 .section-title {
   text-align: center;
@@ -351,6 +343,7 @@ input[type="checkbox"] {
   .about {
     padding-left: 1rem;
     padding-right: 1rem;
+    height: calc(100vh - 80px);
   }
   .container {
     grid-gap: 20px;
