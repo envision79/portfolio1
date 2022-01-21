@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -38,7 +38,7 @@ nav {
   width: 100%;
   align-items: center;
   justify-content: space-between;
-  padding: 0 50px 0 100px;
+  padding: 0 40px;
   flex-wrap: wrap;
   transition: all 0.2s ease;
 }
@@ -57,6 +57,7 @@ nav ul {
   list-style-type: none;
 }
 nav ul li {
+  text-align: center;
   margin: 0 5px;
 }
 nav ul li a {
@@ -98,10 +99,11 @@ input[type="checkbox"] {
 
 /*About Section*/
 .about {
-  padding-top: 40px;
-  text-align: center;
+  height: calc(100vh - 80px);
+  padding: 80px 40px 80px 40px;
+  /* text-align: center; */
   line-height: 44px;
-  padding-bottom: 4rem;
+  /* padding-bottom: 4rem; */
   border-bottom: 2px solid whitesmoke;
 }
 .about h1 {
@@ -198,7 +200,7 @@ input[type="checkbox"] {
   color: #70757a;
 }
 .gitlink{
-  padding: 5px 0;
+  padding: 10px 0;
 }
 .gitlink a:hover {
   
@@ -262,6 +264,34 @@ input[type="checkbox"] {
 .to-top:hover {
   bottom: 35px;
 }
+.resume-1{
+  border: 1px solid black;
+  box-shadow: 5px 5px 0 blueviolet;
+}
+.resume-1:hover{
+  box-shadow: 0px 0px 5px blueviolet;
+}
+.myName{
+  padding: 40px 0;
+  font-size: 40px;
+}
+.container-about-me{
+  padding: 0;
+  background: none;
+  border: none;
+  color: blueviolet;
+}
+.container-about-me span{
+  font-size: 40px;
+  color: black;
+}
+.container-about-me span span{
+  color: blueviolet;
+}
+
+
+
+
 
 @media (max-width: 1000px) {
   nav {
@@ -328,6 +358,10 @@ input[type="checkbox"] {
   .to-top {
     display: none;
   }
+  .resume-1 {
+    width: 30%;
+    margin: 0 35% !important;
+  }
 }
 
 @media (max-width: 768px) {
@@ -335,8 +369,7 @@ input[type="checkbox"] {
     font-size: 22px;
   }
   .about {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 1rem;
     height: calc(100vh - 80px);
   }
   .container {
@@ -362,6 +395,10 @@ input[type="checkbox"] {
   .connect a i {
     font-size: 1.7em;
   }
+  .resume-1 {
+    width: 40%;
+    margin: 0 30% !important;
+  }
 }
 
 @media (min-width: 1440px) {
@@ -369,14 +406,5 @@ input[type="checkbox"] {
     position: absolute;
     right: 15px;
   }
-}
-
-
-.resume-1{
-  border: 1px solid black;
-  box-shadow: 5px 5px 0 blueviolet;
-}
-.resume-1:hover{
-  box-shadow: 0px 0px 5px blueviolet;
 }
 /********************************************** THE END *********************************************/
