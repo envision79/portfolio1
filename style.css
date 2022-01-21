@@ -6,10 +6,15 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
 body {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
+  background-color: #FFFFFF;
+  background-color: #FFFFFF;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='325' height='325' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23E2E4FF' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23E6E2FF'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+  background-color: #FFFFFF;
 }
 html {
   scroll-behavior: smooth;
@@ -66,10 +71,10 @@ nav ul li a {
   border-width: 80%;
   transition: all 0.3s ease;
 }
-nav ul li a.active {
+/* nav ul li a.active {
   color: #1f1f1f;
   border-color: blueviolet;
-}
+} */
 nav ul li a:hover {
   color: #1f1f1f;
 }
@@ -85,22 +90,6 @@ nav .menu-btn i {
   height: 60px;
   background: white;
   box-shadow: 2px 0 8px blue;
-}
-nav ul li button {
-  border-radius: 25px;
-  border: 1px solid rgb(154, 79, 224);
-  background-color: rgb(154, 79, 224);
-  color: white;
-  transition: 0.3s all ease-in-out;
-}
-nav ul li button a {
-  color: white;
-}
-nav ul li button a:hover {
-  color: white;
-}
-nav ul li button:hover {
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.24), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
 }
 
 input[type="checkbox"] {
@@ -174,11 +163,12 @@ input[type="checkbox"] {
   padding: 2rem;
   border: 1px solid #dadce0;
   border-radius: 10px;
-  box-shadow: 5px 5px 5px whitesmoke;
+  box-shadow: 8px 8px 0px whitesmoke;
   transition: 0.3s all ease;
+  background: white;
 }
 .card:hover {
-  box-shadow: none;
+  box-shadow: 1px 1px 5px blueviolet;
 }
 .project-img-div {
   overflow: hidden;
@@ -207,7 +197,11 @@ input[type="checkbox"] {
 .details p {
   color: #70757a;
 }
+.gitlink{
+  padding: 5px 0;
+}
 .gitlink a:hover {
+  
   text-decoration: underline;
 }
 
@@ -216,13 +210,13 @@ input[type="checkbox"] {
   text-align: center;
   border-top: 2px solid whitesmoke;
   padding: 15px 0;
-  color: black;
+  color: #333232;
 }
 .connect h1 {
   font-weight: 500;
 }
 .connect a {
-  color: black;
+  color: #333232;
   transition: all 0.3s ease-in-out;
 }
 .connect a:hover {
@@ -375,5 +369,14 @@ input[type="checkbox"] {
     position: absolute;
     right: 15px;
   }
+}
+
+
+.resume-1{
+  border: 1px solid black;
+  box-shadow: 5px 5px 0 blueviolet;
+}
+.resume-1:hover{
+  box-shadow: 0px 0px 5px blueviolet;
 }
 /********************************************** THE END *********************************************/

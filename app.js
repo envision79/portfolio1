@@ -47,33 +47,33 @@ let jokes = document.querySelector(".jokes");
 //   removeActive();
 //   blog.classList.add("active");
 // });
-home.addEventListener("click", function () {
-  removeActive();
-  home.classList.add("active");
-});
+// home.addEventListener("click", function () {
+//   removeActive();
+//   home.classList.add("active");
+// });
 
-jokes.addEventListener("click", function () {
-  removeActive();
-  jokes.classList.add("active");
-});
+// jokes.addEventListener("click", function () {
+//   removeActive();
+//   jokes.classList.add("active");
+// });
 
-projects.addEventListener("click", function () {
-  removeActive();
-  projects.classList.add("active");
-});
+// projects.addEventListener("click", function () {
+//   removeActive();
+//   projects.classList.add("active");
+// });
 
-exp.addEventListener("click", function () {
-  removeActive();
-  exp.classList.add("active");
-});
+// exp.addEventListener("click", function () {
+//   removeActive();
+//   exp.classList.add("active");
+// });
 
-function removeActive() {
-  // blog.classList.remove("active");
-  jokes.classList.remove("active");
-  home.classList.remove("active");
-  projects.classList.remove("active");
-  exp.classList.remove("active");
-}
+// function removeActive() {
+//   // blog.classList.remove("active");
+//   jokes.classList.remove("active");
+//   home.classList.remove("active");
+//   projects.classList.remove("active");
+//   exp.classList.remove("active");
+// }
 
 // let aboutMe = document.querySelector(".changingAboutMe");
 // const aboutMeContent = [
